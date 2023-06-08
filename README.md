@@ -1,18 +1,10 @@
 # Pacman
 
-This is a based on the https://github.com/MhageGH/esp32_ILI9328_Pacman 
+This is a based on the https://github.com/MhageGH/esp32_ILI9328_Pacman Arduino Pacman Version, which in turn is based on a repository that doesn't exist anymore.
 
 <img src="Pacman-7inches_LCD.png">
 
-## How to build
-
-The project was built using the Arduino IDE and the ESP32S3 Dev Module Board.
-It is necessary to enable PSRAM option in the menu. In the case of the ESP32-S3-WROOM-1, select QSPI PSRAM option.
-
-## Hardware
-
-The board is an ESP32-S3-WROOM-1 sdkdev kit with a display of 7 inches.
-It uses a 800x480 RA8875 parallel 16 bits display and GT911 TouchScreen.
+## Game Controller
 
 There are 2 controllers:
 - Touch Screen buttons
@@ -28,6 +20,17 @@ Otherwise it will keep Red. In case the BLE VR Controller is out of range or tur
 
 In order to reconnect, it is necessary to reset the board.
 Use the Joystick and the 2 "fire" buttons to Play/Pause the game.
+
+## How to build
+
+The project was built using the Arduino IDE and the ESP32S3 Dev Module Board.
+It is necessary to enable PSRAM option in the menu. In the case of the ESP32-S3-WROOM-1, select QSPI PSRAM option.
+
+## Hardware
+
+The board is an ESP32-S3-WROOM-1 sdkdev kit with a display of 7 inches.
+It uses a 800x480 RA8875 parallel 16 bits display and GT911 TouchScreen.
+
 
 The Display used is similar to the one from this repository:
 https://github.com/espzav/Multiple-LCD-Demo
