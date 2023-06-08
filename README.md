@@ -6,7 +6,7 @@ This is a project based on the code from https://github.com/MhageGH/esp32_ILI932
 
 ## Game Controller
 
-There are 2 controllers:
+There are 2 ways to play using:
 - Touch Screen buttons
 - BLE VR HID Remote Control
 
