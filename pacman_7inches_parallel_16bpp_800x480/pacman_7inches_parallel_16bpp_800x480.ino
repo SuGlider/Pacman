@@ -46,10 +46,8 @@ boolean but_RIGHT = false;    // Indicates to go RIGHT
 
 void ClearKeys();
 
-
-typedef void (*NotifyCallback)(BLERemoteCharacteristic*, uint8_t*, size_t, bool);
-
 #if defined(CONFIG_BLUEDROID_ENABLED)
+typedef void (*NotifyCallback)(BLERemoteCharacteristic*, uint8_t*, size_t, bool);
 
 static boolean doConnect = false;
 static boolean connected = false;
