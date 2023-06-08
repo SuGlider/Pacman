@@ -23,7 +23,7 @@ Use the Joystick and the 2 "fire" buttons to Play/Pause the game.
 
 ## How to build
 
-The project was built using the Arduino IDE and the ESP32S3 Dev Module Board.
+The project was built using the Arduino IDE and the ESP32S3 Dev Module Board with Arduino Core 2.0.9.
 It is necessary to enable PSRAM option in the menu. In the case of the ESP32-S3-WROOM-1, select QSPI PSRAM option.
 
 ## Hardware
