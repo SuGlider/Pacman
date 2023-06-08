@@ -18,7 +18,7 @@ The S3 will try to scan and find the BLE VR controller.
 If it finds the BLE VR device, the LED turns Blue.
 Otherwise it will keep Red. In case the BLE VR Controller is out of range or turned off, the LED goes to Red.
 
-In order to reconnect the BLE VR controller, it is necessary to reset the S3 board abnd restart the firmware.
+In order to reconnect the BLE VR controller, it is necessary to reset the S3 board and restart the firmware.
 Use the Joystick and the 2 "fire" buttons to Play/Pause the game.
 
 ## How to build
