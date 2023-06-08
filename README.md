@@ -15,10 +15,10 @@ https://github.com/BigJBehr/ESP32-Bluetooth-BLE-Remote-Control
 
 The S3 devkit has a neopixel LED. As soon as the board is turned on, it will turn Red.
 The S3 will try to scan and find the BLE VR controller.
-It it finds the BLE VR device, the LED turns Blue.
+If it finds the BLE VR device, the LED turns Blue.
 Otherwise it will keep Red. In case the BLE VR Controller is out of range or turned off, the LED goes to Red.
 
-In order to reconnect, it is necessary to reset the board.
+In order to reconnect the BLE VR controller, it is necessary to reset the S3 board abnd restart the firmware.
 Use the Joystick and the 2 "fire" buttons to Play/Pause the game.
 
 ## How to build
@@ -31,8 +31,7 @@ It is necessary to enable PSRAM option in the menu. In the case of the ESP32-S3-
 The board is an ESP32-S3-WROOM-1 sdkdev kit with a display of 7 inches.
 It uses a 800x480 RA8875 parallel 16 bits display and GT911 TouchScreen.
 
-
-The Display used is similar to the one from this repository:
+The Display and hardware are the same from this repository:
 https://github.com/espzav/Multiple-LCD-Demo
 
 <img src="https://github.com/espzav/Multiple-LCD-Demo/blob/main/doc/images/multiple_lcd_main.jpg">
