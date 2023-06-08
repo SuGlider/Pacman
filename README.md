@@ -2,6 +2,7 @@
 
 This is a based on the https://github.com/MhageGH/esp32_ILI9328_Pacman 
 
+<img src="Pacman-7inches_LCD.png">
 
 ## How to build
 
