@@ -28,7 +28,7 @@ It is necessary to enable PSRAM option in the menu. In the case of the ESP32-S3-
 
 ## Hardware
 
-The board is an ESP32-S3-WROOM-1 sdkdev kit with a display of 7 inches.
+The board is an ESP32-S3-WROOM-1 sdk dev kit with a display of 7 inches.
 It uses a 800x480 RA8875 parallel 16 bits display and GT911 TouchScreen.
 
 The Display and hardware are the same from this repository:
