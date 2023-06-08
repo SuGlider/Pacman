@@ -1,6 +1,6 @@
 # Pacman
 
-This is a based on the https://github.com/MhageGH/esp32_ILI9328_Pacman Arduino Pacman Version, which in turn is based on a repository that doesn't exist anymore.
+This is a project based on the code from https://github.com/MhageGH/esp32_ILI9328_Pacman Arduino Pacman Version, which in turn is based on a repository that doesn't exist anymore.
 
 <img src="Pacman-7inches_LCD.png">
 
